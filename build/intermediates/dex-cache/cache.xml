@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3.1_6b770269b6600b0a40ca5b37112d1b30e053754c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_825bfb9caca35490d93363d85a66147891a03195/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/glide-3.6.1_bf4d1967b11d77531874b2e59fa2723dee04b78b.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/com.mikepenz/iconics/1.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="720dcbcd8744b145da58d835d7e4dbc546886df7">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mikepenz-iconics-1.2.0_ef90010628d87a507a0ae66a4bcb86f2bd710031/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/cf8f4b82dc9cd8b449caa8d66d1814f96a7d35e2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_e8967c132fd2a74275e17e1b16303418af2b8d2f.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fbe0294b9f30e3bb4450644bb3d4ac7c62c101a4">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_53f863b9e0ea21c539d1c8dc8d6fdf1ad9fde011/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-tasks-1.4.0_951665b7fd36be4d19f856a81c9d6143680ff96b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/aa57a6cd3da3504f9798dd8ddda4d4073965f55c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="720dcbcd8744b145da58d835d7e4dbc546886df7">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_5c4abce85f8bdba5908fd3d605ec5fa7f639c327.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/ea7a8313c08998738cc838a7c8a2adb8a18cf681/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_7890ea4e343cd30ced814a99e79cb64798c967ed.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/bolts-tasks-1.4.0_951665b7fd36be4d19f856a81c9d6143680ff96b.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/4e6f9fbca6f302aa4f900d61c0490c328b0c2a45/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_91d56f12fcbce5115c4c66ea127286e17878e7a8.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/6.5.87/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4a568f733067f786d53e191ccf998e7ea3da68cc">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-6.5.87_b2dd17fa4a54bd82a6c7574058ab790cf7a0de3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/1daf820a4169ced9060e192a34b2251dfd6e8616/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_76f8a3bb6478bd0686691803ebf040f82b2a5556.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_8933d4b40300ee275ba68b22e962537a78ef6044/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_49bda26b02c64b38527041df020c25658a584d56/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/7baf5a3cae5415436531c97144266635dc230e40/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_5cdf95813fc19e9ccb8c9d20d974280c6a0a9d78.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/8fbc355e56ec78063da4aedbc522058b35478ab0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_d2bc2990403221e620e328e5506cbadcb3f0cdc9.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/support-annotations-25.1.0_c4ce0ff9fc5bc45d666bb95d8be72238917fd1f1.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.1/5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a/parse-android-1.13.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/parse-android-1.13.1_669a6fdcbe356e982e72796efd5e8b91dbce46a3.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6e9ab77c25e3eb3bd360b91fd00faeed9cf1bdcb">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_165ab4713cb8b0ca9527764b9927080184a2dda4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/6.5.87/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-6.5.87_ed8d8d0616e0dca6a2ab0490a3460c49657ca053/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/306f2bf7308558a3d69efbb7edb423431e86a795/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_0fecb48be51fbbbab0046306cd1fc5068a3976f3.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/de.keyboardsurfer.android.widget/crouton/1.8.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b81c788c5f175f94ddaac2f65e5d1726371e0963">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.keyboardsurfer.android.widget-crouton-1.8.5_1202ec3649fa188b337a029e391b56f9c50c4491/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/56ca6c1cb6888ae15a1d301389c1c2f44e0b4f1c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_144430553601da719c0d968d9a712ada67d3a74e.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/2ff99b9822ec48e41aab017a83d0f741f3d2765a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_797178ac83e8bd0aa4e1a70c3c63efaa76160706.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_ab5c575260c0f6b160db8d9ec4af63b39737345f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/gson-2.3.1_6b770269b6600b0a40ca5b37112d1b30e053754c.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/4c0bb272a69b84e56ac2b3172792dd30f7f048e2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_2fab7a27ed53b855cfb8dabb3f42397329f78a88.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_f6a445b2bf7139b6641a2dfdac5b55ea1a8d62ac/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/1ff7a4d27421cfe5dd2549f98db78a7d715d3704/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a93454051575c128e7819b068748c7a9b95c6857">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_f2068f6f8d71a0580475a3ca852a0a8a0e41870e.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/647cef20fd0c2996249825afeba0a3db51dd32ea/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_79057122cd180e237cb3fcc198a54ac23cf9d73d.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/jp.co.cyberagent.android.gpuimage/gpuimage-library/1.2.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a93454051575c128e7819b068748c7a9b95c6857">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/jp.co.cyberagent.android.gpuimage-gpuimage-library-1.2.3_de20e8d426fe9f04e020769dd2e7935ddbf9763f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_668a4b03bb502c4c56a8a384a52d1556263d6606/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/0b4927a58c694203f2509edccb795c5c9892341a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b81c788c5f175f94ddaac2f65e5d1726371e0963">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_ff1bf7be27bc92b5acfddf5777c12266858dc05a.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/e2ecb1b3af3636552bb45d9f3153a55d817a11f2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_a03789dfe7fc48e69ef75c99b15964f8c2f82db3.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/dffa4e4477e5a75707baf9edf8241e7eb8b92e0d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9b5ab5d31472e2edec0b741355aa2fc18d16a0c">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_4056ac321e7bd5bef6b7ba72d26d8704377a1aed.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_04f795543946729f0eccab7ac104529bc1462739/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_1640b0d2433dde8baeb082c959d07530203b14c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/jp.wasabeef/picasso-transformations/1.0.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="bca6048f268b04c965656f7ac5414fac1e4ec809">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/jp.wasabeef-picasso-transformations-1.0.5_308bda4e96b87a1bdc4498ab89f6cab1f6eb4d4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/e66d070f2e902e42d76b070c0f3e6a188acc7e1b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_e034131f0e1fa0015070cb84cf396d9c495a0135.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/e35c4f07d04d89d6b3c04ad31a589c111d1f497c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bca6048f268b04c965656f7ac5414fac1e4ec809">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_70122d5e2d3416732d5f29150ee6f1595d35bcfb.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/5a3a06bcac84be4ec0557f80a1d11299de93f9dd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1c3b9743fe8bb166a90a7e98b9b9f1f8021d80cd">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_36111005756dac678feb4189295ba67b9bb9d78b.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.1/5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a/parse-android-1.13.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5f645bf60e3b88ccc02bd2a4018c5e3ef2f77d0a">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/parse-android-1.13.1_669a6fdcbe356e982e72796efd5e8b91dbce46a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/com.mikepenz/materialdrawer/3.1.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c9b5ab5d31472e2edec0b741355aa2fc18d16a0c">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mikepenz-materialdrawer-3.1.2_007b6e0ffd118d8eaf7974200f0a6c1b3b9fac00/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/7491de4b643a057858812adb0aa76d825ecdda6b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a568f733067f786d53e191ccf998e7ea3da68cc">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_418d60808b99731eb5768db98846060acfc68daf.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_6c03314465036e7ddfce44efe7aefed479456fdb/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/picasso-2.5.2_8933d4b40300ee275ba68b22e962537a78ef6044.jar.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/951c1add6dc0805b76047eb615df0911df88a42b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_d8aca039368d6bbbc833aab518e6a96e76f215db.jar.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-6.5.87_b524d9f1a7635567da6660b56f972ff80462413b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/thiagocury/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.6.1_bf4d1967b11d77531874b2e59fa2723dee04b78b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/thiagocury/.android/build-cache/75ddb98bcf5299d91a3b118ebd4c9a974b569ab7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/transforms/preDex/release/jars/1000/10/classes_bb7479a77140672381962ca172736667c01a761c.jar.jar" />
+    </item>
+
+</items>

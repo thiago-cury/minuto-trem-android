@@ -1,0 +1,167 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="thiagocury.eti.br.minutotrem.FragHome"
+    android:background="@color/grey200">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <!-- Linear Geral -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Linear "bem vindo" -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/lineartitulos"
+                android:background="@drawable/layout_shadow_white">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/frag_home_tv_boas_vindas"
+                    android:text="@string/frag_tv_boas_vindas"
+                    android:gravity="center"
+                    style="@style/titulos"/>
+
+            </LinearLayout>
+
+            <!-- linear para centralizar "operação normal....." -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        style="@style/linearconteudos"
+        android:background="@drawable/layout_shadow_white"
+        android:layout_marginTop="5dp">
+
+    <!-- linear para posicionar a imageview e o "operação normal" juntos -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:id="@+id/frag_home_linear1">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:id="@+id/frag_home_status_imagem"
+                android:layout_gravity="left"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="OPERAÇÃO NORMAL"
+                android:id="@+id/frag_home_status_operacao"
+                style="@style/operacao"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/frag_home_tv_operacao1"
+            android:id="@+id/frag_home_tv_horario_previsto"
+            android:textAlignment="center"
+            style="@style/selectstextos"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/frag_home_tv_operacao2"
+            android:id="@+id/frag_home_tv_intervalo"
+            android:textAlignment="center"
+            style="@style/selectstextos"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/frag_home_btn_atualizar_status"
+            android:text="@string/frag_home_btn_atualizar_texto"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn"
+            style="@style/btn" />
+        </LinearLayout>
+
+        <!-- Linear para ESTAÇÕES, CONTAGEM DE MINUTOS E BTN ATUALIZAR -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/linearconteudos"
+            android:background="@drawable/layout_shadow_white"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/frag_home_tv_estacao_chegada"
+                android:textAlignment="center"
+                android:text="@string/frag_home_tv_estacao_partida"
+                style="@style/selectstitulos"
+                android:layout_marginTop="10dp"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/estacoes"
+                android:id="@+id/frag_home_sp_estacao_partida"
+                style="@style/selectstextos"
+                android:layout_marginBottom="10dp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/frag_home_tv_estacao_chegada"
+                android:id="@+id/textView"
+                android:textAlignment="center"
+                style="@style/selectstitulos"/>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/estacoes"
+                android:id="@+id/frag_home_sp_estacao_chegada"
+                style="@style/selectstextos"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/frag_home_tv_calculo"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

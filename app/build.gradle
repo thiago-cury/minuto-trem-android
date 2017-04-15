@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "thiagocury.eti.br.minutotrem"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    //menu
+    compile('com.mikepenz:materialdrawer:3.1.2@aar') {
+        transitive = true
+    }
+    //Crouton
+    compile('de.keyboardsurfer.android.widget:crouton:1.8.5@aar') {
+        // exclusion is not necessary, but generally a good idea.
+        exclude group: 'com.google.android', module: 'support-v4'
+    }
+    //Gson
+    //Para poder usar GSON nas classes
+    provided 'org.glassfish:javax.annotation:10.0-b28'
+    //Picasso
+    //Picasso Transformation
+    //Glide
+    //Google Play Services
+    //Navigation Drawer
+    compile('com.mikepenz:materialdrawer:3.1.2@aar') {
+        transitive = true
+    }
+    //Parse
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'jp.wasabeef:picasso-transformations:1.0.5'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.google.android.gms:play-services-location:6.5.87'
+
+    //compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:25.1.0'
+    compile 'com.android.support:support-v4:25.1.0'
+    compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.2.3'
+    compile 'com.parse:parse-android:1.13.1'
+
+    compile 'com.github.clans:fab:1.6.4' //nao utilizada
+    compile 'com.getbase:floatingactionbutton:1.10.1'
+}

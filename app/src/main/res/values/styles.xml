@@ -1,0 +1,181 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Formatações para o FAB -->
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_background</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Formatações para os títulos -->
+    <style name="titulos">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/grey800</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <!-- Formatações para os textos -->
+    <style name="textos">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <!-- formatação dos linear layouts - TITULOS (margens, color e orientation) -->
+    <style name="lineartitulos">
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <!-- formatação dos linear layouts - CONTEÚDOS (margens, color e orientation) -->
+    <style name="linearconteudos">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:elevation">1.5dp</item>
+    </style>
+
+    <!-- Formatação para o View -->
+    <style name="view">
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:background">@color/grey400</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+
+    <!-- formatação para numeros -->
+    <style name="numeros">
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- formatação para os Imageview's -->
+    <style name="iv">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+    </style>
+
+    <!-- Formatação para textos do "importante", dos achados e perdidos -->
+    <style name="textosimportante">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <!-- .............................  Formatações para a HOME  ............... -->
+
+    <!-- Texto Bem vindo -->
+    <style name="bemvindo">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/grey700</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <!-- Texto operação -->
+    <style name="operacao">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/grey800</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Titulo dos selects -->
+    <style name="selectstitulos">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/grey800</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!-- textos selects -->
+    <style name="selectstextos">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:textColor">@color/grey700</item>
+    </style>
+
+    <!-- botao atualizar -->
+    <style name="btn">
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- formatação para os textos de linha ciclista -->
+    <style name="textosciclistas">
+        <item name="android:textSize">15sp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+    </style>
+
+    <!-- formatação para titulos de ciclistas e etiqueta urbana -->
+    <style name="titulosciclistasetiqueta">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/grey800</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <!-- formatação para o ListView do ciclista -->
+    <style name="lvciclistas">
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <!-- formatação para o gridView do etiqueta -->
+    <style name="gvetiqueta">
+        <item name="android:columnWidth">150dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:horizontalSpacing">8dp</item>
+        <item name="android:numColumns">auto_fit</item>
+        <item name="android:stretchMode">spacingWidthUniform</item>
+        <item name="android:verticalSpacing">15dp</item>
+        <item name="android:elevation">1.5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>

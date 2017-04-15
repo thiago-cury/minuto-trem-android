@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="thiagocury.eti.br.minutotrem.FragEtiquetaUrbana">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <TextView
+                    android:text="@string/frag_etiqueta_urbana_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView32"
+                    style="@style/titulosciclistasetiqueta"
+                    android:background="@drawable/layout_shadow_white" />
+
+
+            <GridView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/grid_etiqueta"
+                android:layout_centerHorizontal="true"
+                android:choiceMode="singleChoice"
+                style="@style/gvetiqueta"
+                android:background="@drawable/layout_shadow_white"/>
+        </LinearLayout>
+
+</RelativeLayout>

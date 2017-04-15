@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="fab_margin">0dp</dimen>
+
+
+    <!-- Tela Sobre -->
+    <dimen name="linear_marg">16dp</dimen>
+    <dimen name="sobre_largura">230dp</dimen>
+    <dimen name="sobre_altura">80dp</dimen>
+    <dimen name="espacamento">2dp</dimen>
+    <dimen name="esp_img">5dp</dimen>
+    <dimen name="width_cluster">200dp</dimen>
+    <dimen name="height_cluster">50dp</dimen>
+    <dimen name="marg_bottom_qi">10dp</dimen>
+    <dimen name="texto">15dp</dimen>
+
+    <!-- Títulos -->
+    <dimen name="titulos">18sp</dimen>
+
+</resources>

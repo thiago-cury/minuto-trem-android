@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="thiagocury.eti.br.minutotrem.FragGuiaCiclista">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/frag_guia_ciclista_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView32"
+            style="@style/titulosciclistasetiqueta"
+            android:background="@drawable/layout_shadow_white"
+            />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lv_guia_ciclista"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:choiceMode="none"
+            android:layout_below="@id/textView32"
+            android:background="@drawable/layout_shadow_white"
+            android:elevation="1.5dp"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

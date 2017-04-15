@@ -1,0 +1,202 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="thiagocury.eti.br.minutotrem.FragAchadosEPerdidos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <!-- Linear Geral -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Linear para achados e perdidos -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/lineartitulos"
+                android:background="@drawable/layout_shadow_white">
+
+                <TextView
+                    android:text="@string/frag_achados_e_perdidos_titulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView21"
+                    style="@style/titulos"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:focusable="false"
+                    style="@style/view"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_achados_e_perdidos_descricao_1"
+                    android:id="@+id/textView15"
+                    style="@style/textos" />
+
+            </LinearLayout>
+
+            <!-- Linear para Importante -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/linearconteudos"
+                android:background="@drawable/layout_shadow_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_achados_e_perdidos_descricao_2"
+                    android:id="@+id/textView16"
+                    android:layout_below="@id/textView15"
+                    style="@style/titulos"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:focusable="false"
+                    style="@style/view"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_achados_e_perdidos_descricao_3"
+                    android:id="@+id/textView23"
+                    android:layout_below="@id/textView15"
+                    style="@style/textos"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_achados_e_perdidos_descricao_4"
+                    android:id="@+id/textView24"
+                    android:layout_below="@id/textView15"
+                    style="@style/textosimportante"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_achados_e_perdidos_descricao_5"
+                    android:id="@+id/textView25"
+                    android:layout_below="@id/textView24"
+                    style="@style/textos"/>
+
+            </LinearLayout>
+
+            <!-- Linear para Local -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/linearconteudos"
+                android:background="@drawable/layout_shadow_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/frag_achados_e_perdidos_local"
+                    android:id="@+id/textView17"
+                    android:layout_below="@id/textView16"
+                    style="@style/titulos"/>
+
+            </LinearLayout>
+
+            <!-- Linear para horário -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/linearconteudos"
+                android:background="@drawable/layout_shadow_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_achados_e_perdidos_horario"
+                    android:id="@+id/textView19"
+                    android:layout_centerVertical="true"
+                    android:layout_below="@id/textView16"
+                    style="@style/titulos"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:focusable="false"
+                    style="@style/view"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_achados_e_perdidos_horario2"
+                    android:id="@+id/textView22"
+                    android:layout_centerVertical="true"
+                    android:layout_below="@id/textView19"
+                    style="@style/textos"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_achados_e_perdidos_horario3"
+                    android:id="@+id/textView29"
+                    android:layout_centerVertical="true"
+                    android:layout_below="@id/textView19"
+                    style="@style/textosimportante"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>
+
+            <!-- Linear para Telefone -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/linearconteudos"
+                android:background="@drawable/layout_shadow_white"
+                android:layout_marginBottom="0.5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/frag_achados_e_perdidos_telefone_descricao"
+                    android:id="@+id/textView20"
+                    android:layout_alignBottom="@+id/textView18"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    style="@style/titulos"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:focusable="false"
+                    style="@style/view"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_achados_e_perdidos_telefone"
+                    android:id="@+id/textView18"
+                    android:layout_below="@+id/textView19"
+                    android:layout_alignRight="@+id/textView17"
+                    android:layout_alignEnd="@+id/textView17"
+                    android:autoLink="phone"
+                    style="@style/textos"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

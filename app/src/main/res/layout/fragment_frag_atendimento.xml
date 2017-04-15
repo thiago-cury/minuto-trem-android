@@ -1,0 +1,301 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="thiagocury.eti.br.minutotrem.FragAtendimento">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <!-- Linear geral -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Linear para canais de atendimento -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/lineartitulos"
+                android:background="@drawable/layout_shadow_white">
+
+                <TextView
+                    android:text="@string/frag_atendimento_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView26"
+                    style="@style/titulos"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:focusable="false"
+                    style="@style/view"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_atendimento_descricao_geral"
+                    android:id="@+id/textView21"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    style="@style/textos"
+                    android:textColor="@color/grey700" />
+
+
+            </LinearLayout>
+
+            <!-- Linear para esclarecimento -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/linearconteudos"
+                android:background="@drawable/layout_shadow_white">
+
+                <TextView
+                    android:text="@string/frag_esclarecimento_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView35"
+                    style="@style/titulos"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:focusable="false"
+                    style="@style/view"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/frag_atendimento_por_telefone_descricao_2"
+                        android:id="@+id/textView2"
+                        android:layout_below="@+id/textView"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        style="@style/textos" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/frag_atendimento_por_telefone_telefone"
+                        android:id="@+id/textView3"
+                        android:autoLink="phone"
+                        style="@style/numeros"/>
+
+                </LinearLayout>
+
+
+                <!-- Linear para telefone de emergência -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/linearconteudos"
+                    android:background="@drawable/layout_shadow_white">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/frag_atendimento_por_telefone_emergencia_titulo"
+                        style="@style/titulos"/>
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:focusable="false"
+                        style="@style/view"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/frag_atendimento_por_sms_descricao"
+                        android:id="@+id/textView8"
+                        android:layout_below="@+id/textView6"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        style="@style/textos"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/frag_atendimento_por_telefone_emergencia"
+                        android:id="@+id/textView27"
+                        android:layout_alignBaseline="@+id/textView26"
+                        android:layout_alignBottom="@+id/textView26"
+                        android:layout_alignStart="@+id/textView3"
+                        android:autoLink="phone"
+                        style="@style/numeros"/>
+
+                </LinearLayout>
+
+
+            <!-- Linear para atendimento POR SMS -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/linearconteudos"
+                android:background="@drawable/layout_shadow_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_atendimento_por_sms"
+                    android:id="@+id/textView20"
+                    style="@style/titulos"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:focusable="false"
+                    style="@style/view"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_atendimento_por_sms_telefone"
+                    android:id="@+id/textView7"
+                    android:autoLink="phone"
+                    style="@style/textos"/>
+
+            </LinearLayout>
+
+
+            <!-- Linear para atendimento POR EMAIL -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/linearconteudos"
+                android:background="@drawable/layout_shadow_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/frag_atendimento_por_email_titulo"
+                    android:id="@+id/textView4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    style="@style/titulos"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:focusable="false"
+                    style="@style/view"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_atendimento_por_email_email"
+                    android:id="@+id/textView5"
+                    android:autoLink="email"
+                    style="@style/textos" />
+            </LinearLayout>
+
+
+
+            <!-- Linear para atendimento POR FORMULÁRIO -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/linearconteudos"
+                android:background="@drawable/layout_shadow_white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_atendimento_por_formulario_titulo"
+                    android:id="@+id/textView17"
+                    style="@style/titulos"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:focusable="false"
+                    style="@style/view"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_atendimento_por_formulario_url"
+                    android:id="@id/textView18"
+                    style="@style/textos"
+                    android:autoLink="web"/>
+            </LinearLayout>
+
+
+            <!-- Linear para redes sociais -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/linearconteudos"
+                android:background="@drawable/layout_shadow_white"
+                android:layout_marginBottom="0.5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/frag_atendimento_por_redes_sociais_titulo"
+                    android:id="@+id/textView32"
+                    style="@style/titulos"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:focusable="false"
+                    style="@style/view"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_face"
+                        android:id="@+id/ic_face"
+                        style="@style/iv"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_twitter"
+                        android:id="@+id/ic_twitter"
+                        style="@style/iv"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_flickr"
+                        android:id="@+id/ic_flickr"
+                        style="@style/iv"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@mipmap/ic_trem"
+                        android:id="@+id/ic_trem"
+                        style="@style/iv"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

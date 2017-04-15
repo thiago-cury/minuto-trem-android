@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=/home/thiagocury/AndroidStudioProjects/MinutoTrem v1 05112016 1145/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar
+FILE_HASH=372cb3166dfd20c54c822c4c12c7d03318560300
+DX_VERSION=1.12
+JUMBO_MODE=true
+OPTIMIZE=true
