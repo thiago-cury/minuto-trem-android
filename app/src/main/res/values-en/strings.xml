@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minuto Trem</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu PT-BR -->
+    <string name="menu_tela_inicial">Main Screen</string>
+    <string name="menu_verificar_estacao_proxima">Nearest station</string>
+    <string name="menu_modo_trem">Train Mode</string>
+    <string name="menu_verificar_informacoes_estacoes">Check stations\' info</string>
+    <string name="menu_verificar_etiquetas">Urban Etiquette Guide</string>
+    <string name="menu_verificar_ciclistas">Cyclist Guide</string>
+    <string name="menu_canais_atendimento">Service channels</string>
+    <string name="menu_cartao_sim">Sim Card</string>
+    <string name="menu_achados_e_perdidos">Lost and found</string>
+    <string name="menu_noticias">News</string>
+    <string name="menu_sobre">About</string>
+    <string name="menu_sair">Quit</string>
+
+    <!-- Fragment Home-->
+    <string name="frag_home_tv_boas_vindas">Welcome to Minuto Trem</string>
+    <string name="home_btn_atualizar_status">Update status</string>
+    <string name="frag_tv_boas_vindas">Welcome to MinutoTrem!</string>
+    <string name="frag_home_tv_estacao_chegada">ARRIVAL STATION</string>
+    <string name="frag_home_tv_estacao_partida">DEPARTURE STATION</string>
+    <string name="frag_home_btn_atualizar_texto">UPDATE</string>
+    <string name="frag_home_tv_operacao1">Please wait&#8230;</string>
+    <string name="frag_home_tv_operacao2"></string>
+
+    <!-- Estações -->
+    <string name="frag_modo_trem_estacao">Station</string>
+    <string-array name="estacoes">
+        <item>Choose your station</item>
+        <item>Mercado</item>
+        <item>Rodoviária</item>
+        <item>São Pedro</item>
+        <item>Farrapos/IPA</item>
+        <item>Aeroporto</item>
+        <item>Anchieta</item>
+        <item>Niterói/UniRitter</item>
+        <item>Fátima</item>
+        <item>Canoas/LaSalle</item>
+        <item>Mathias Velho/QI Escolas e Faculdades</item>
+        <item>São Luíz/Ulbra</item>
+        <item>Petrobrás</item>
+        <item>Esteio</item>
+        <item>Luiz Pasteur</item>
+        <item>Sapucaia</item>
+        <item>Unisinos</item>
+        <item>São Leopoldo</item>
+        <item>Rio dos Sinos</item>
+        <item>Santo Afonso</item>
+        <item>Industrial/Tintas Killing</item>
+        <item>Fenac</item>
+        <item>Novo Hamburgo</item>
+    </string-array>
+
+    <!-- Formato dos textos -->
+    <string name="formato_previsao_normalizacao">Forecast of normalisation:  &lt;span color=&quot;red&quot;&gt;%s&lt;/span&gt;</string>
+    <string name="formato_intervalo_entre_trens">Train interval: &lt;span color=&quot;red&quot;>%s&lt;/span&gt; min</string>
+    <string name="formato_cabecalho_intervalos">&lt;p&gt;&lt;strong&gt;Departure&lt;/strong&gt;&#160;&#160;&#160;&#160;|&#160;&#160;&#160;&#160;&lt;strong&gt;Arrival&lt;/strong&gt;&lt;/p&gt;</string>
+    <string name="formato_item_intervalos" formatted="false">&lt;strong&gt;%s&lt;/strong&gt; =&gt; &lt;strong&gt;%s&lt;/strong&gt; &lt;span color=&quot;red&quot;&gt;%d min&lt;/span&gt;&lt;br&gt;</string>
+
+    <!-- Fragment Sobre-->
+    <string name="frag_sobre">ABOUT THE APP</string>
+    <string name="frag_sobre_nomeapp">Minuto Trem</string>
+    <string name="frag_sobre_versao">1.1 Version</string>
+    <string name="frag_sobre_desenvolvedor">DEVELOPER</string>
+    <string name="frag_sobre_data">Year 2017</string>
+    <string name="frag_sobre_site">www.thiagocury.eti.br</string>
+    <string name="frag_sobre_email">thiagocury@gmail.com</string>
+    <string name="frag_sobre_desenvolvedores_auxiliares_titulo">PARTNER DEVELOPERS</string>
+    <string name="frag_sobre_desenvolvedores_auxiliares">Bryan Beheregaray\nFilipe Frozza\nJuliano Prandini\nLeandro Quevedo\nMauricio Ray\nRafael Kern\nRafael Couto\nThiago Paiva</string>
+
+    <!-- Fragment Achados e Perdidos -->
+    <string name="frag_achados_e_perdidos_titulo">LOST AND FOUND</string>
+    <string name="frag_achados_eperdidos">Lost and Found</string>
+    <string name="frag_achados_e_perdidos_telefone_descricao">PHONE</string>
+    <string name="frag_achados_e_perdidos_telefone">+55 51 3363 8714</string>
+    <string name="frag_achados_e_perdidos_local">LOCATION: FARRAPOS STATION</string>
+    <string name="frag_achados_e_perdidos_horario">SCHEDULE</string>
+    <string name="frag_achados_e_perdidos_horario2"> 8A.M to 12A.M and 1PM to 4:30PM,</string>
+    <string name="frag_achados_e_perdidos_horario3">Monday to Friday </string>
+    <string name="frag_achados_e_perdidos_descricao_1">There, you can find documents and objects found in the trains or in the stations, available to their owners.</string>
+    <string name="frag_achados_e_perdidos_descricao_2">IMPORTANT </string>
+    <string name="frag_achados_e_perdidos_descricao_3">Documents will only be delivered to the owner or with a written authorization from the owner. </string>
+    <string name="frag_achados_e_perdidos_descricao_4"> Documents will stay in Lost and Found Central for two months.</string>
+    <string name="frag_achados_e_perdidos_descricao_5"> After this time, they\'ll be sent to Porto Alegre\'s Mail Center.</string>
+
+    <!-- Fragment Atendimento PT-BR -->
+    <string name="title_fragivity_atendimento">Service Channels</string>
+    <string name="frag_atendimento_titulo"> SERVICE CHANNELS </string>
+    <string name="frag_atendimento_descricao_geral">Know all of Trensurb\'s service channels, for you to answer your questions, make complaints, deliver suggestions and keep informed whenever you need.</string>
+    <string name="frag_atendimento_por_telefone_descricao_1">By phone </string>
+    <string name="frag_atendimento_por_telefone_telefone">+55 51 3363 8477</string>
+    <string name="frag_atendimento_por_telefone_emergencia_titulo">EMERGENCY PHONE</string>
+    <string name="frag_atendimento_por_telefone_emergencia">+55 51 3363 8026</string>
+    <string name="frag_esclarecimento_titulo"> DOUBTS AND COMPLAINTS CLARIFICATION</string>
+    <string name="frag_atendimento_por_telefone_descricao_2">Doubts and complaints clarification channel. Operating hours (business days): 7AM to 8PM, Monday to Friday.</string>
+    <string name="frag_atendimento_por_twitter">By Twitter:</string>
+    <string name="frag_atendimento_por_twitter_url">http://www.twitter.com/trensurb</string>
+    <string name="frag_atendimento_por_facebook">By Facebook:</string>
+    <string name="frag_atendimento_por_facebook_url">http://www.facebook.com/trensurboficial</string>
+    <string name="frag_atendimento_por_formulario_titulo">BY FORM</string>
+    <string name="frag_atendimento_por_formulario_url">http://bit.ly/atendimentotrensurb</string>
+    <string name="frag_atendimento_por_flickr">By Flickr</string>
+    <string name="frag_atendimento_por_flickr_url">http://www.flickr.com/trensurb</string>
+    <string name="frag_atendimento_por_site">Website</string>
+    <string name="frag_atendimento_por_site_url">http://www.trensurb.gov.br</string>
+    <string name="frag_atendimento_por_email_titulo">BY EMAIL</string>
+    <string name="frag_atendimento_por_email_email">atendimento@trensurb.gov.br</string>
+    <string name="frag_atendimento_por_sms">BY TEXT MESSAGE</string>
+    <string name="frag_atendimento_por_redes_sociais_titulo"> BY WEBSITES</string>
+    <string name="frag_atendimento_por_sms_telefone">+55 51 9 8463 9863</string>
+    <string name="frag_atendimento_por_sms_descricao">Exclusive channel for complaints regarding train innappropriate usage, such as: illegal commerce, vandalism, etc.</string>
+
+    <!-- Fragment Cartão Sim PT-BR -->
+
+    <string name="title_activity_cartao_sim">Sim Card</string>
+    <string name="frag_cartao_sim_titulo"> SIM CARD</string>
+    <string name="frag_cartao_sim_descricao">Practical, safe and smart? Yes!</string>
+    <string name="frag_cartao_sim_descricao_2"> SIM is Trensurb\'s smart ticket card, that delivers more practicality, agility, safety and economy to the train users. </string>
+    <string name="frag_cartao_sim_mais_informacoes">MORE INFORMATION BY PHONE</string>
+    <string name="frag_cartao_sim_telefone_1">+55 51 3027 9959</string>
+    <string name="frag_cartao_sim_telefone_1_descricao">EPTC</string>
+    <string name="frag_cartao_sim_telefone_2">+55 51 3363 8477</string>
+    <string name="frag_cartao_sim_telefone_2_descricao">TRENSURB</string>
+    <string name="frag_cartao_sim_pelo_site_descricao">BY WEBSITE</string>
+    <string name="frag_cartao_sim_pelo_site">http://www.tripoa.com.br</string>
+    <string name="frag_cartao_sim_pelo_site_mais_info">FOR MORE INFORMATION, GO TO</string>
+    <string name="frag_cartao_sim_mais_info_link">http://www.trensurb.gov.br/paginas/paginas_detalhe.php?codigo_sitemap=11</string>
+
+    <!-- frag guia ciclistas -->
+    <string name="frag_guia_ciclista_titulo">CYCLIST GUIDE</string>
+    <!-- fragment Etiqueta Urbana -->
+    <string name="frag_etiqueta_urbana_titulo"> URBAN ETIQUETTE GUIDE</string>
+
+    <!-- Mensagens aleatorias PT-BR -->
+    <string name="aviso_mapa">You\'ll be inserted in the map in a moment&#8230;</string>
+    <string name="aviso_mapa_user">You</string>
+    <string name="aviso_tela_inicial_temperatura">Downloading temperature!</string>
+    <string name="aviso_tela_inicial_temperatura_falha">Connection problem!</string>
+    <string name="aviso_geral_erro">Error!</string>
+    <string name="aviso_chegada">Arriving at station </string>
+    <string name="aviso_longe_estacao">You\'re not near any station</string>
+    <string name="aviso_erro_internet">It was not possible to retrieve server data, please try again later.</string>
+</resources>

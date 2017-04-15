@@ -63,13 +63,13 @@
     <!-- Fragment Sobre-->
     <string name="frag_sobre">SOBRE O APLICATIVO</string>
     <string name="frag_sobre_nomeapp">Minuto Trem</string>
-    <string name="frag_sobre_versao">Versão 1.0</string>
+    <string name="frag_sobre_versao">Versão 1.1</string>
     <string name="frag_sobre_desenvolvedor">DESENVOLVEDOR</string>
     <string name="frag_sobre_data">Ano 2017</string>
     <string name="frag_sobre_site">www.thiagocury.eti.br</string>
     <string name="frag_sobre_email">thiagocury@gmail.com</string>
     <string name="frag_sobre_desenvolvedores_auxiliares_titulo">DESENVOLVEDORES PARCEIROS</string>
-    <string name="frag_sobre_desenvolvedores_auxiliares">Bryan Beheregaray\nFilipe Frozza\nJuliano Prandini\nLeandro Quevedo\nMauricio Ray\nRafael Kern\nThiago Paiva</string>
+    <string name="frag_sobre_desenvolvedores_auxiliares">Bryan Beheregaray\nFilipe Frozza\nJuliano Prandini\nLeandro Quevedo\nMauricio Ray\nRafael Kern\nRafael Couto\nThiago Paiva</string>
 
     <!-- Fragment Achados e Perdidos -->
     <string name="frag_achados_e_perdidos_titulo">ACHADOS E PERDIDOS</string>
