@@ -130,8 +130,6 @@
                 style="@style/selectstextos"
                 android:layout_marginBottom="10dp"/>
 
-
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -154,14 +152,33 @@
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:id="@+id/frag_home_tv_calculo"
                 android:layout_gravity="center_horizontal"
-
-                android:layout_marginTop="3dp"
-                android:layout_marginBottom="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
                 android:textSize="16dp"
                 android:textStyle="bold"/>
 
         </LinearLayout>
 
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/linearconteudos"
+            android:background="@drawable/layout_shadow_white"
+            android:layout_marginTop="2dp">
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/frag_home_adview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-2051234629138297/7611165821">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
     </LinearLayout>
     </ScrollView>
 </RelativeLayout>

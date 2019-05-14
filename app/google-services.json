@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "23862524549",
+    "firebase_url": "https://minuto-trem.firebaseio.com",
+    "project_id": "minuto-trem",
+    "storage_bucket": "minuto-trem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23862524549:android:2ce849196d494be6",
+        "android_client_info": {
+          "package_name": "thiagocury.eti.br.minutotrem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23862524549-0m2i82crgo8omgsd55asepudfc8i167d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ3GVLeB3orDW_GPIwMzXt7TI8cxCvuIY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -15,6 +15,9 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.google.gson.Gson;
 import com.squareup.picasso.Picasso;
 
@@ -47,6 +50,9 @@ public class FragHome extends Fragment {
 	private String ultimoErro;
 	private Dialog ultimoDialogo = null;
 
+	private AdView mAdView;
+
+
 	public FragHome () {
 		// Required empty public constructor
 	}
@@ -68,6 +74,12 @@ public class FragHome extends Fragment {
 		spEstacaoPartida = (Spinner) v.findViewById (R.id.frag_home_sp_estacao_partida);
 		spEstacaoChegada = (Spinner) v.findViewById (R.id.frag_home_sp_estacao_chegada);
 		tvCalculo = (TextView) v.findViewById (R.id.frag_home_tv_calculo);
+
+		MobileAds.initialize(getActivity().getApplication(), "ca-app-pub-2051234629138297~1110047092");
+
+		mAdView = v.findViewById(R.id.frag_home_adview);
+		AdRequest adRequest = new AdRequest.Builder().build();
+		mAdView.loadAd(adRequest);
 
 		AdapterView.OnItemSelectedListener onItemSelectedListener = new AdapterView.OnItemSelectedListener () {
 			@Override

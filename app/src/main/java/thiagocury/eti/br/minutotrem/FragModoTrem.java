@@ -238,14 +238,14 @@ public class FragModoTrem extends FragmentActivity implements OnMapReadyCallback
 		ArrayList<Estacao> estacoesProximas = new ArrayList<> ();
 		for (Estacao e : estacoes) estacoesProximas.add (e);
 
-		Collections.sort (estacoesProximas, new Comparator<Estacao> () {
+		/*Collections.sort (estacoesProximas, new Comparator<Estacao> () {
 			@Override
 			public int compare (Estacao a, Estacao b) {
 				Double x1 = Utils.calcularDistancia (usuarioLocalizacao.getPosicaoAtual (), a.getPosicao ());
 				Double x2 = Utils.calcularDistancia (usuarioLocalizacao.getPosicaoAtual (), b.getPosicao ());
 				return x1.compareTo (x2);
 			}
-		});
+		});*/
 
 		return estacoesProximas.get (0);
 
@@ -259,14 +259,14 @@ public class FragModoTrem extends FragmentActivity implements OnMapReadyCallback
 	private void inicializarMapaSeNecessario () {
 		if (mapa == null) {
 
-			mapa = ((SupportMapFragment) getSupportFragmentManager ().findFragmentById (R.id.mapa)).getMap ();
+			//mapa = ((SupportMapFragment) getSupportFragmentManager ().findFragmentById (R.id.mapa)).getMap ();
 
 			if (mapa != null) inicializarMapa ();
 		}
 	}
 
 	private void inicializarMapa () {
-		mapa.setMyLocationEnabled (true);
+	//	mapa.setMyLocationEnabled (true);
 		mapa.setMapType (GoogleMap.MAP_TYPE_NORMAL);
 
 		//Movendo a camera para a estação Luiz Pasteur no início.
@@ -301,7 +301,7 @@ public class FragModoTrem extends FragmentActivity implements OnMapReadyCallback
 						BitmapDescriptor icone = null;
 
 						//Caso seja aeromóvel terminal 1 ou 2
-						if (verificarAeromovel (estacao)) {
+						/*if (verificarAeromovel (estacao)) {
 							if (estacao.getAtivo ()) {
 								icone = BitmapDescriptorFactory.fromResource (R.mipmap.ic_aeromovel_azul);
 							} else {
@@ -311,7 +311,7 @@ public class FragModoTrem extends FragmentActivity implements OnMapReadyCallback
 							icone = BitmapDescriptorFactory.fromResource (R.mipmap.ic_launcher);
 						} else {
 							icone = BitmapDescriptorFactory.fromResource (R.mipmap.ic_trem_fora_servico);
-						}
+						}*/
 						//Adiciona o marcador no mapa
 						//mapa.addMarker (new MarkerOptions ().position (new LatLng (estacao.getLatitude (), estacao.getLongitude ())).title (titulo).icon (icone);
 						estacoes.add (estacao);

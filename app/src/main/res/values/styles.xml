@@ -46,7 +46,7 @@
 
     <!-- formatação dos linear layouts - TITULOS (margens, color e orientation) -->
     <style name="lineartitulos">
-        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
         <item name="android:background">@color/white</item>
         <item name="android:orientation">vertical</item>
         <item name="android:elevation">2dp</item>
@@ -122,8 +122,8 @@
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">@color/grey800</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_marginTop">10dp</item>
-        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
     </style>
 
     <!-- textos selects -->

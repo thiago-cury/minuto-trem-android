@@ -6,7 +6,7 @@
     <string name="menu_tela_inicial">Tela Inicial</string>
     <string name="menu_verificar_estacao_proxima">Estação mais Próxima</string>
     <string name="menu_modo_trem">Modo Trem</string>
-    <string name="menu_verificar_informacoes_estacoes">Verificar Informações das Estações</string>
+    <string name="menu_informacoes_estacoes">Informações das Estações</string>
     <string name="menu_verificar_etiquetas">Guia Etiqueta Urbana</string>
     <string name="menu_verificar_ciclistas">Guia Ciclistas</string>
     <string name="menu_canais_atendimento">Canais de Atendimento</string>
@@ -63,7 +63,7 @@
     <!-- Fragment Sobre-->
     <string name="frag_sobre">SOBRE O APLICATIVO</string>
     <string name="frag_sobre_nomeapp">Minuto Trem</string>
-    <string name="frag_sobre_versao">Versão 1.1</string>
+    <string name="frag_sobre_versao">Versão 1.3</string>
     <string name="frag_sobre_desenvolvedor">DESENVOLVEDOR</string>
     <string name="frag_sobre_data">Ano 2017</string>
     <string name="frag_sobre_site">www.thiagocury.eti.br</string>
@@ -144,4 +144,6 @@
     <string name="aviso_longe_estacao">Você não está perto de nenhuma Estação</string>
     <string name="aviso_erro_internet">Não foi possivel baixar os dados do servidor, por favor tente novamente mais tarde.</string>
 
+    <!-- Tela Mapa Estações PT-BR -->
+    <string name="title_activity_tela_mapa_estacoes">Map</string>
 </resources>

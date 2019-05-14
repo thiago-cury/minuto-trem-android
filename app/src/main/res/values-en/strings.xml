@@ -3,11 +3,11 @@
     <string name="app_name">Minuto Trem</string>
     <string name="action_settings">Settings</string>
 
-    <!-- Menu PT-BR -->
+    <!-- Menu -->
     <string name="menu_tela_inicial">Main Screen</string>
     <string name="menu_verificar_estacao_proxima">Nearest station</string>
     <string name="menu_modo_trem">Train Mode</string>
-    <string name="menu_verificar_informacoes_estacoes">Check stations\' info</string>
+    <string name="menu_informacoes_estacoes">Check stations\' info</string>
     <string name="menu_verificar_etiquetas">Urban Etiquette Guide</string>
     <string name="menu_verificar_ciclistas">Cyclist Guide</string>
     <string name="menu_canais_atendimento">Service channels</string>
@@ -64,7 +64,7 @@
     <!-- Fragment Sobre-->
     <string name="frag_sobre">ABOUT THE APP</string>
     <string name="frag_sobre_nomeapp">Minuto Trem</string>
-    <string name="frag_sobre_versao">1.1 Version</string>
+    <string name="frag_sobre_versao">1.3 Version</string>
     <string name="frag_sobre_desenvolvedor">DEVELOPER</string>
     <string name="frag_sobre_data">Year 2017</string>
     <string name="frag_sobre_site">www.thiagocury.eti.br</string>
@@ -87,7 +87,7 @@
     <string name="frag_achados_e_perdidos_descricao_4"> Documents will stay in Lost and Found Central for two months.</string>
     <string name="frag_achados_e_perdidos_descricao_5"> After this time, they\'ll be sent to Porto Alegre\'s Mail Center.</string>
 
-    <!-- Fragment Atendimento PT-BR -->
+    <!-- Fragment Atendimento -->
     <string name="title_fragivity_atendimento">Service Channels</string>
     <string name="frag_atendimento_titulo"> SERVICE CHANNELS </string>
     <string name="frag_atendimento_descricao_geral">Know all of Trensurb\'s service channels, for you to answer your questions, make complaints, deliver suggestions and keep informed whenever you need.</string>
@@ -114,10 +114,9 @@
     <string name="frag_atendimento_por_sms_telefone">+55 51 9 8463 9863</string>
     <string name="frag_atendimento_por_sms_descricao">Exclusive channel for complaints regarding train innappropriate usage, such as: illegal commerce, vandalism, etc.</string>
 
-    <!-- Fragment Cartão Sim PT-BR -->
-
+    <!-- Fragment Cartão Sim -->
     <string name="title_activity_cartao_sim">Sim Card</string>
-    <string name="frag_cartao_sim_titulo"> SIM CARD</string>
+    <string name="frag_cartao_sim_titulo">SIM CARD</string>
     <string name="frag_cartao_sim_descricao">Practical, safe and smart? Yes!</string>
     <string name="frag_cartao_sim_descricao_2"> SIM is Trensurb\'s smart ticket card, that delivers more practicality, agility, safety and economy to the train users. </string>
     <string name="frag_cartao_sim_mais_informacoes">MORE INFORMATION BY PHONE</string>
@@ -135,7 +134,7 @@
     <!-- fragment Etiqueta Urbana -->
     <string name="frag_etiqueta_urbana_titulo"> URBAN ETIQUETTE GUIDE</string>
 
-    <!-- Mensagens aleatorias PT-BR -->
+    <!-- Mensagens aleatorias -->
     <string name="aviso_mapa">You\'ll be inserted in the map in a moment&#8230;</string>
     <string name="aviso_mapa_user">You</string>
     <string name="aviso_tela_inicial_temperatura">Downloading temperature!</string>
@@ -144,4 +143,8 @@
     <string name="aviso_chegada">Arriving at station </string>
     <string name="aviso_longe_estacao">You\'re not near any station</string>
     <string name="aviso_erro_internet">It was not possible to retrieve server data, please try again later.</string>
+
+    <!-- Tela Mapa Estações -->
+    <string name="title_activity_tela_mapa_estacoes">Map</string>
+
 </resources>

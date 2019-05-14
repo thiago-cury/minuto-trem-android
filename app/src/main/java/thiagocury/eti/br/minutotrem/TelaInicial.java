@@ -1,6 +1,7 @@
 package thiagocury.eti.br.minutotrem;
 
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +11,13 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 
+import com.google.android.gms.ads.MobileAds;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
 import com.mikepenz.materialdrawer.accountswitcher.AccountHeader;
@@ -20,6 +28,10 @@ import com.mikepenz.materialdrawer.model.ProfileDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IProfile;
 
+import java.util.ArrayList;
+
+import thiagocury.eti.br.minutotrem.misc.Estacao;
+
 public class TelaInicial extends AppCompatActivity {
 
 	//Menu
@@ -27,6 +39,8 @@ public class TelaInicial extends AppCompatActivity {
 
 	//Toolbar
 	private Toolbar toolbar;
+
+	protected static ArrayList<Estacao> ests = null;
 
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
@@ -60,10 +74,11 @@ public class TelaInicial extends AppCompatActivity {
 						new DividerDrawerItem (),
 						//new PrimaryDrawerItem().withName(R.string.menu_verificar_ciclistas).withIdentifier(50).withIcon(R.mipmap.ic_ciclista),
 						//new PrimaryDrawerItem().withName(R.string.menu_verificar_etiquetas).withIdentifier(60).withIcon(R.mipmap.ic_etiqueta),
+						new PrimaryDrawerItem().withName(R.string.menu_verificar_estacao_proxima).withIdentifier(70).withIcon(R.mipmap.ic_estacao_proxima),
+						new PrimaryDrawerItem().withName(R.string.menu_informacoes_estacoes).withIdentifier(80).withIcon(R.mipmap.ic_sobre),
 
 						/*new PrimaryDrawerItem().withName(R.string.menu_verificar_estacao_proxima).withIdentifier(20).withIcon(R.mipmap.ic_launcher),
 						new PrimaryDrawerItem().withName(R.string.menu_modo_trem).withIdentifier(30).withIcon(R.mipmap.ic_launcher),
-                        V new PrimaryDrawerItem().withName(R.string.menu_verificar_informacoes_estacoes).withIdentifier(40).withIcon(R.mipmap.ic_launcher),
                         V new PrimaryDrawerItem().withName(R.string.menu_verificar_etiquetas).withIdentifier(50).withIcon(R.mipmap.ic_launcher),
                         V new PrimaryDrawerItem().withName(R.string.menu_verificar_ciclistas).withIdentifier(60).withIcon(R.mipmap.ic_launcher),
                         V new PrimaryDrawerItem().withName(R.string.menu_canais_atendimento).withIdentifier(70).withIcon(R.mipmap.ic_launcher),
@@ -113,6 +128,17 @@ public class TelaInicial extends AppCompatActivity {
 								ft60.replace (R.id.frame1, etiquetaUrbana);
 								ft60.commit ();
 								break;
+							case 70:
+								Intent it = new Intent(TelaInicial.this, TelaMapaEstacoes.class);
+								startActivity(it);
+								break;
+							case 80:
+								FragmentTransaction ft80 = getFragmentManager ().beginTransaction ();
+								FragEstacoes fragEstacoes = new FragEstacoes();
+								ft80.replace (R.id.frame1, fragEstacoes);
+								ft80.commit ();
+								break;
+
 							case 888:
 								FragmentTransaction ft888 = getFragmentManager ().beginTransaction ();
 								FragSobre sobre = new FragSobre ();
@@ -142,6 +168,30 @@ public class TelaInicial extends AppCompatActivity {
 					}
 				}).build ();
 		result.setSelectionByIdentifier (10);//Pré selecionando o primeiro item
+		//## Fim menu
+
+		ests = new ArrayList<>();
+
+		//Firebase
+		FirebaseApp.initializeApp(TelaInicial.this);
+		final FirebaseDatabase db = FirebaseDatabase.getInstance();
+		final DatabaseReference banco = db.getReference("estacoes");
+
+		banco.addValueEventListener(new ValueEventListener() {
+			@Override
+			public void onDataChange(DataSnapshot dataSnapshot) {
+
+				ests.clear();
+				for(DataSnapshot data: dataSnapshot.getChildren()){
+					Estacao e = data.getValue(Estacao.class);
+					e.setKey(data.getKey()); //Colocando key manualmente no objeto
+					ests.add(e);
+				}
+			}
+			@Override
+			public void onCancelled(DatabaseError databaseError) {
+			}
+		});
 
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 			Window window = this.getWindow ();
